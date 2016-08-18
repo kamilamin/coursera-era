@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    text-align: center;
+}
+.large-box{
+    background-color: #999999;
+    border: 2px solid black;
+    display: inline-block;
+    height: 50%;
+    margin: 10px;
+    width: 30%;
+}
+.small-box{
+    background-color: #D59898;
+    border-right: none; 
+    border-top: none;
+    border: 1px solid #000000;
+    float: right;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    width: 30%;
+}
+.lg-para{
+    margin: 50px 10px 20px 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    div{
+        display: inline-block;
+    }
+    .container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .large-box{
+        margin: auto;
+        width: 49.2%;
+        margin-bottom: 5px; 
+    }
+    .box3{
+        margin: auto;
+        width: 99.4%;
+    }
+}
+
+@media screen and (max-width:765px){
+    div{
+        display: inline-block;
+    }
+    .container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .box{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+     .box3{
+        margin: auto;
+        width: 100%;
+    }
+}
